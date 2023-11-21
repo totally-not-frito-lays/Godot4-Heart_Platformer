@@ -92,3 +92,7 @@ frame_progress = 0.7415
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
 position = Vector2(0, -8)
 polygon = PackedVector2Array(-4, -8, -4, 8, 4, 8, 4, -8)
+
+[node name="CoyoteJumpTimer" type="Timer" parent="."]
+wait_time = 3.0
+one_shot = true
